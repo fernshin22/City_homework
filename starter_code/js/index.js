@@ -20,13 +20,13 @@
 		$("#city-type").val("");
  		
 
- 		if (city == "los-angeles" || city == "la" || city == "lax"){
+ 		if (city == "los angeles" || city == "la" || city == "lax"){
  		$("body").attr("class", "la");
     	}	
-		else if (city == "new-york" || city == "nyc" || city == "new-york-city"){
+		else if (city == "new york" || city == "nyc" || city == "new york-city"){
  		$("body").attr("class", "nyc");
     	}	
-    	else if (city == "san-francisco" || city == "sf" || city == "bay-area"){
+    	else if (city == "san francisco" || city == "sf" || city == "bay area"){
  		$("body").attr("class", "sf");
     	}
     	else if (city == "austin" || city == "atx"){
